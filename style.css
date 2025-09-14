@@ -30,7 +30,6 @@ body {
     width: 100%;
 }
 
-
 #username,
 #password {
     width: 500px;       
@@ -40,10 +39,10 @@ body {
     font-family: 'Times New Roman', Times, serif;
     text-align: center;
 }
+
 input::placeholder {
     text-align: center;
 }
-
 
 label {
     font-weight: bold;
@@ -53,7 +52,6 @@ label {
     align-items: center;
     font-size: 24px;
 }
-
 
 button {
     width: 500px;
@@ -71,7 +69,6 @@ button:hover {
     color: white;
 }
 
-
 a {
     display: inline-block;
     width: 500px;
@@ -86,10 +83,23 @@ a {
     text-align: center;
     line-height: 30px;
 }
+
 a:hover {
     color: black;
 }
 
 label, h1, h2 {
     color: #424874;
+}
+
+@media (max-width: 600px) {
+    body {
+        flex-direction: column;
+        padding: 20px;
+    }
+
+    .container {
+        flex-direction: column;
+        height: auto;
+    }
 }

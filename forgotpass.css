@@ -22,11 +22,12 @@ body {
     justify-content: center;
     align-items: center;
     height: 80vh;
-    width: 100vh;   
-    max-width: 95%;     
+    width: 100%;         
+    max-width: 600px;  
     padding: 5px;
     border: 2px solid;
     border-radius: 100px;
+    box-sizing: border-box;
 }
 
 .btn {
@@ -51,6 +52,7 @@ body {
     width: 400px;
     max-width: 90%;  
     height: 30px;
+    box-sizing: border-box;
 }
 
 input::placeholder {

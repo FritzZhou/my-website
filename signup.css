@@ -1,0 +1,89 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Times New Roman', Times, serif;
+    background-color: #DCD6F7;
+    animation: fadeIn 1.5s ease-in-out forwards;
+    height: 100vh;
+    width: 100;
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+h1 {
+    text-align: center;
+}
+
+select {
+    border-radius: 10px;
+    border: 1px solid;
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+    width: 133px;
+    height: 30px;
+    font-size: 2vh;
+    
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid;
+    border-radius: 10px;
+    width: 450px;         
+    min-height: 550px;     
+    font-family: 'Times New Roman', Times, serif;
+    padding: 20px;
+    gap: 15px;            
+    background-color: #DCD6F7;
+}
+
+
+.credential-box {
+    border: 2px solid;
+    border-radius: 20px;
+    width: 400px; 
+    height: 50px; 
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+    font-size: 14px;
+    margin: 5px 0;
+    font-size: 2vh;
+}
+
+#signup {
+    border: 2px solid;
+    border-radius: 10px;
+    width: 408px;
+    height: 30px;
+    cursor: pointer;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 2vh;
+    color: #A6B1E1;
+}
+
+#signup:hover {
+    background-color: #424874;
+}
+
+
+a {
+    font-weight: bold;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 15px;
+    color: #A6B1E1;
+}
+
+a:hover {
+    color: #424874;
+}

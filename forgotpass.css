@@ -1,0 +1,133 @@
+            .container {
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                height: 80vh;
+                width: 100vh;
+                padding: 5px;
+                border: 2px solid;
+                border-radius: 100px;
+            
+            }
+            @keyframes fadeIn {
+                from {
+                    opacity: 0;
+                }
+                to {
+                    opacity: 1;
+                }
+            }
+
+            body {
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                background-color: #DCD6F7;
+                animation: fadeIn 1.5s ease-in-out forwards;
+
+
+            }
+            
+            .btn {
+                font-family: 'Times New Roman', Times, serif;
+                border-radius: 20px;
+                background-color: #F4EEFF;
+                width: 150px;
+                height: 40px;
+                font-size: 2vh;
+                cursor: pointer;
+                transition: background 0.3s ease, color 0.3s ease;
+                font-weight: bold;
+            }
+
+            .btn:hover {
+                background: black;
+                color: white;    
+            }
+
+            #forgotpass {
+                border-radius: 20px;
+                width: 400px;
+                height: 30px;
+                text-size-adjust: 10px;
+            }
+
+            input::placeholder {
+                text-align: center;
+                font-family: 'Times New Roman', Times, serif;
+                font-size: 2vh;
+            }
+
+           .cancel-btn {
+                font-weight: bold;
+                border-radius: 20px;
+                width: 150px;
+                height: 30px;
+                color: white;
+                cursor: pointer;
+            }
+            .cancel-btn:hover {
+                color: black;
+            }
+            
+            .container {
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                height: 80vh;
+                width: 100vh;
+                padding: 5px;
+                border: 2px solid;
+                border-radius: 100px;
+            
+            }
+
+            body {
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                background-color: #DCD6F7;
+            }
+            
+            .btn {
+                font-family: 'Times New Roman', Times, serif;
+                border-radius: 20px;
+                background-color: #F4EEFF;
+                width: 150px;
+                height: 40px;
+                font-size: 2vh;
+                cursor: pointer;
+                transition: background 0.3s ease, color 0.3s ease;
+                font-weight: bold;
+            }
+
+            .btn:hover {
+                background: black;
+                color: white;    
+            }
+
+            #forgotpass {
+                border-radius: 20px;
+                width: 400px;
+                height: 30px;
+                text-size-adjust: 10px;
+            }
+
+            input::placeholder {
+                text-align: center;
+                font-family: 'Times New Roman', Times, serif;
+                font-size: 2vh;
+            }
+
+            #cbutton {
+                font-weight: bold;
+                border-radius: 20px;
+                width: 150px;
+                height: 30px;
+                background: linear-gradient(135deg,  rgb(217, 255, 217) 50%, rgb(255, 255, 255) 50%);
+                cursor: pointer;
+            }
+            #cbutton:hover {
+                background: black;
+                color: white;
+            }

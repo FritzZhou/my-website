@@ -9,23 +9,27 @@
 <body>
     <div class="container">
         <form action="#" method="post">
-            <h1 style="text-align: center;">Login Form</h1> 
-            <h2 style="text-align: center;">Connect with friends</h2> <hr> <br>
-
-            <label for="username">Username</label> <br>
-            <input  style="font-size: 20px; font-weight: bold; font-family: 'Times New Roman', Times, serif;" type="text" id="username" placeholder="Fritz Vohn Manticahon Dayday" required> <br> <br>
-
-            <label style="text-align: center; justify-content: center; display: flex;" for="password">Password</label> <br>
-            <input style="font-size: 20px;" type="password" placeholder="12345678910" id="password" required> <br> <br>
+            <h1>Login Form</h1>
+            <h2>Connect with friends</h2>
+            <hr>
             
-            <button>Sign in</button> <br> <br>
+            <div class="form-group">
+                <label for="username">Username</label>
+                <input class="form-input" type="text" id="username" placeholder="Fritz Vohn Manticahon Dayday" required>
+            </div>
             
-
-            <a href="ForgotPass.html" class="button-link">Forgot Password</a>
-            <a href="signup.html" class="button-link">Sign up</a>
+            <div class="form-group">
+                <label for="password">Password</label>
+                <input class="form-input" type="password" placeholder="12345678910" id="password" required>
+            </div>
+            
+            <button type="submit">Sign in</button>
+            
+            <div class="links">
+                <a href="ForgotPass.html" class="button-link">Forgot Password</a>
+                <a href="signup.html" class="button-link">Sign up</a>
+            </div>
         </form>
-        
     </div>
 </body>
 </html>
-
